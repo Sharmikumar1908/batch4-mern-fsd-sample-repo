@@ -1,0 +1,103 @@
+MODULE 3 – CLASSROOM ACTIVITIES
+ADVANCED JAVASCRIPT (ES6+) & GIT/GITHUB
+
+
+ACTIVITY 1:
+API DATA RETRIEVAL
+
+QUESTION:
+Consume public APIs and display data dynamically on webpages.
+
+ANSWER:
+
+API Data Retrieval means getting information from a public API and using that
+information in a webpage.
+
+An API allows one application to communicate with another application and
+request data. In JavaScript, the Fetch API can be used to send a request to a
+public API. The received data can then be processed and displayed dynamically
+on the webpage.
+
+The basic process is:
+
+User/Webpage → API Request → Public API → Response/Data → Webpage Display
+
+For example, a weather API can provide weather information such as city,
+temperature, and weather conditions. JavaScript can retrieve this information
+and display it on the webpage without manually entering the data.
+
+RESULT:
+Students understand how to retrieve data from public APIs and display the
+data dynamically on webpages.
+
+
+------------------------------------------------------------
+
+ACTIVITY 2:
+TEAM COLLABORATION SIMULATION
+
+QUESTION:
+Work in teams using Git branches, pull requests, and code reviews.
+
+ANSWER:
+
+Team Collaboration Simulation teaches students how developers work together
+on the same software project using Git and GitHub.
+
+Git is a version control system used to track changes in code. GitHub is an
+online platform used to store repositories and collaborate with other
+developers.
+
+A Git branch allows a developer to work on a feature separately without
+directly changing the main code. After completing the work, the developer can
+create a pull request. Other team members can review the changes through a
+code review. After approval, the changes can be merged into the main branch.
+
+Basic process:
+
+Create Repository → Create Branch → Make Changes → Commit Changes →
+Push to GitHub → Create Pull Request → Code Review → Merge
+
+This workflow helps team members work safely and reduces conflicts when
+multiple developers work on the same project.
+
+RESULT:
+Students understand Git branches, pull requests, code reviews, and
+collaborative software development workflows.
+
+
+------------------------------------------------------------
+
+ACTIVITY 3:
+DEBUGGING CHALLENGE
+
+QUESTION:
+Identify and fix intentionally introduced bugs in JavaScript applications.
+
+ANSWER:
+
+Debugging is the process of finding and correcting errors or bugs in a
+program.
+
+JavaScript applications may contain different types of errors, such as
+syntax errors, runtime errors, and logical errors. Developers use debugging
+tools and techniques to identify the cause of an error and correct it.
+
+The try-catch mechanism can be used to handle errors in JavaScript. Browser
+developer tools can also help developers inspect errors and understand what is
+happening in the application.
+
+Basic debugging process:
+
+Run the Application → Identify the Error → Find the Cause →
+Correct the Code → Test Again
+
+For example, if a JavaScript program uses an incorrect variable name, the
+developer identifies the error, corrects the variable name, and runs the
+program again to verify the result.
+
+RESULT:
+Students learn to identify, analyze, and fix common JavaScript errors and
+understand the importance of debugging in software development.
+
+

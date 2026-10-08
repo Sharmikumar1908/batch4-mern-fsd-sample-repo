@@ -1,0 +1,134 @@
+MODULE 2 – CLASSROOM ACTIVITIES HTML, CSS & JAVASCRIPT FUNDAMENTALS
+
+ACTIVITY 1:
+RESPONSIVE LAYOUT DESIGN
+
+QUESTION: Build a responsive landing page that adapts to desktop,
+tablet, and mobile devices.
+
+ANSWER:
+
+File name: activity1.html
+
+CODE:
+
+<!DOCTYPE html>
+Responsive Landing Page
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Simple Responsive Landing Page</p>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <p>
+            This webpage is designed using HTML and CSS.
+            It adjusts its layout for smaller screens.
+        </p>
+    </section>
+
+    <section>
+        <h2>Services</h2>
+        <p>Web Development</p>
+        <p>Web Design</p>
+        <p>Programming</p>
+    </section>
+
+RESULT: The webpage displays correctly on desktop and adjusts its
+spacing and content for smaller mobile screens.
+
+ ACTIVITY 2:
+
+INTERACTIVE FORM DEVELOPMENT
+
+
+QUESTION: Create a registration form with validation and user feedback
+mechanisms.
+
+ANSWER:
+
+File name: activity2.html
+
+CODE:
+
+<!DOCTYPE html>
+Registration Form
+    <h1>Registration Form</h1>
+
+    <form id="registrationForm">
+
+        <label>Name:</label>
+        <input type="text" id="name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+    <p id="message"></p>
+
+    <script>
+        document.getElementById("registrationForm").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var message = document.getElementById("message");
+
+            if (name == "" || email == "" || password == "") {
+                message.innerHTML = "Please fill all the fields.";
+            }
+            else if (password.length < 6) {
+                message.innerHTML = "Password must contain at least 6 characters.";
+            }
+            else {
+                message.innerHTML = "Registration successful!";
+            }
+
+        });
+    </script>
+
+RESULT: The form checks whether all fields are filled. It also checks
+the password length and displays a feedback message to the user.
+
+ACTIVITY 3:
+
+DOM MANIPULATION WORKSHOP
+
+QUESTION: Dynamically update webpage content based on user actions such
+as clicks and form submissions.
+
+ANSWER:
+
+File name: activity3.html
+
+CODE:
+
+<!DOCTYPE html>
+DOM Manipulation
+    <h1>DOM Manipulation Example</h1>
+
+    <p id="text">This is the original text.</p>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("text").innerHTML =
+                "The text has been changed using JavaScript.";
+        }
+    </script>
+
+RESULT: When the user clicks the button, JavaScript uses DOM
+manipulation to change the webpage content.
+
